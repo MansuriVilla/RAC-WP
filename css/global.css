@@ -7,3 +7,17 @@
 
 button.navbar-toggler:focus,
 button.btn-close:focus{box-shadow: none;}
+
+
+.custom-container{max-width: 1800px; margin: 0px auto; width: 100%;}
+.custom-container-footer{max-width: 1440px; margin: 0px auto; width: 100%;}
+.custom-text-light{color: #565656;}
+.border-top-custom { border-top: 2px solid #565656;}
+
+
+.footer a{text-decoration: none; color: #fff; font-size: 1.125rem;}
+
+.footer ul,
+.footer li{padding:0px; margin:0px;}
+
+.footer li{list-style: none;}
