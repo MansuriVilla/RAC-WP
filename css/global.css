@@ -9,8 +9,9 @@ button.navbar-toggler:focus,
 button.btn-close:focus{box-shadow: none;}
 
 
-.custom-container{max-width: 1800px; margin: 0px auto; width: 100%;}
-.custom-container-footer{max-width: 1440px; margin: 0px auto; width: 100%;}
+.custom-container{max-width: 1800px; margin: 0px auto; width: 100%; padding: 0px 15px; }
+.custom-container-footer, .custom-container-main{max-width: 1440px; margin: 0px auto; width: 100%; padding: 0px 15px; }
+
 .custom-text-light{color: #565656;}
 .border-top-custom { border-top: 2px solid #565656;}
 
