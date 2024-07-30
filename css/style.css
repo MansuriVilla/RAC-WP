@@ -3,6 +3,8 @@
 
 /* Header Hover links C-C-102 */
 
+
+
 .nav-item{display: flex; align-items: center; font-size: 14px;}
 
 .nav-link{overflow: hidden; position: relative;display: inline-block;  transition: all .5s ease;}
@@ -17,7 +19,13 @@
 
 .quote-inner-btn .text-light.btn{padding: 16px 20px; height: 52px; line-height: 0;}
 
+.custom-body-offcanvas .navbar-nav{gap: 39px;}
+.custom-body-offcanvas .navbar-nav li a{color: #010101;}
+
+
 /* Header Hover links C-C-102 */
+
+
 
 
 /* Footer Start C-C-112 */
