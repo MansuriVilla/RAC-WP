@@ -1,0 +1,9 @@
+:root{
+    --rca-theme-font-bold:latobold;
+    --rca-theme-font-regular:latoregular;
+}
+.rca-regular{font-family: var(--rca-theme-font-regular); font-weight: 300; }
+.rca-bold{font-family: var(--rca-theme-font-bold); font-weight: 600; }
+
+button.navbar-toggler:focus,
+button.btn-close:focus{box-shadow: none;}

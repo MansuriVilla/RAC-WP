@@ -1,0 +1,22 @@
+
+
+.custom-container{max-width: 1800px; margin: 0px auto; width: 100%;}
+
+
+/* Header Hover links C-C-102 */
+
+.nav-item{display: flex; align-items: center;}
+
+.nav-link{position: relative;display: inline-block;  transition: all .5s ease;}
+.nav-link::after{content:''; position: absolute; height:2px; width: 20px; background-color: #000; bottom: 5px; left: 50%; transform: translate(-50%,-50%); border-radius: 50px; transition: all .5s ease; visibility: hidden; opacity: 0;}
+.nav-link:hover::after{visibility: visible; opacity: 1;}
+.nav-link:hover{font-weight: bold;}
+
+
+
+
+.social-links-header .social-right a:hover{ border-bottom: 2px solid #fff;}
+
+.quote-inner-btn .text-light.btn{padding: 16px 20px; height: 52px; line-height: 0;}
+
+/* Header Hover links C-C-102 */
