@@ -1,18 +1,23 @@
-$(document).ready(function () {
-    // Open offcanvas menu
-    $('.open-btn').click(function () {
-        $('.offcanvas').addClass('open');
-    });
+function removeImportantFromStylesheets() {
+    var styleSheets = document.styleSheets;
 
-    // Close offcanvas menu
-    $('.close-btn').click(function () {
-        $('.offcanvas').removeClass('open');
-    });
-
-    // Close offcanvas menu when clicking outside
-    $(document).click(function (event) {
-        if (!$(event.target).closest('.offcanvas, .open-btn').length) {
-            $('.offcanvas').removeClass('open');
+    for (var i = 0; i < styleSheets.length; i++) {
+        var sheet = styleSheets[i];
+        try {
+            var rules = sheet.cssRules || sheet.rules;
+            for (var j = 0; j < rules.length; j++) {
+                var rule = rules[j];
+                if (rule.style) {
+                    // Remove !important from cssText
+                    var cssText = rule.cssText.replace(/ !important/g, '');
+                    // Reapply the style without !important
+                    rule.style.cssText = cssText;
+                }
+            }
+        } catch (e) {
+            console.warn('Unable to access stylesheet', e);
         }
-    });
-});
+    }
+}
+
+removeImportantFromStylesheets();

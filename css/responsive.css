@@ -1,0 +1,4 @@
+@media only screen and (max-width:575px) {
+    .social-links-header .social-inner .social-left .social-block .social { height: 15px; }
+    .social-links-header.bg-black{ background-color:aqua; }
+}
