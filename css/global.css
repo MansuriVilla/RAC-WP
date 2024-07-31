@@ -10,6 +10,7 @@ button.btn-close:focus{box-shadow: none;}
 
 
 /* Custom Class Start */
+.custom-revers{flex-direction: row-reverse; -ms-flex-direction: row-reverse;}
 .row-custom{align-items: center;}
 .text-right-custom{text-align: right;}
 .no-padding-top{padding-top: 0px;}

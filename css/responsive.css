@@ -3,7 +3,10 @@
     .custom-fs-72{font-size: 62px;}
     .hero .hero-inner .hero-top .hero-left h1{padding-bottom:53px ;}
     .hero .hero-inner .hero-right img{max-width: 20px;}
+    .hero .hero-inner .hero-banner .quote-btn{height: 128px; width: 128px;}
 }
+
+
 
 @media only screen and (max-width:1140px) {
     .custom-fs-18{font-size: 14px;}
@@ -25,7 +28,7 @@
     .custom-fs-72{font-size: 46px;}
     .hero{padding-top: 21px;}
     .hero .hero-inner .hero-banner {margin-top: 50px;}
-    .hero .hero-inner .hero-banner .quote-btn{position: absolute; height: 120px; width: 120px; top: -44px; right: 40%;}
+    .hero .hero-inner .hero-banner .quote-btn{height: 120px; width: 120px; top: -44px; right: 40%;}
     .hero .hero-inner .hero-banner .quote-btn button{ padding: 10px; font-size: 14px;}
     .custom-card {padding: 15px 15px;}
 }
