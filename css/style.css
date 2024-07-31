@@ -41,7 +41,6 @@ body,html{
 
 /* Hero seciton Start */
 
-.hero{padding-top: 25px; display: block;}
 .hero .hero-inner .hero-top{/* min-height: 30vh; */ justify-content: space-between; padding-bottom: 23px;}
 .hero .hero-inner .hero-top .hero-left h1{padding-bottom: 37px;}
 .hero .hero-inner{justify-content: space-between; height: 100%;  align-items: center;}
@@ -51,11 +50,20 @@ body,html{
 .hero .hero-inner .hero-banner .quote-btn{ background-color: #000; height: 148px; width: 148px;  border: 3px solid #fff; border-radius: 100%;position: absolute; top: -70px; right: 35%; }
 .hero .hero-inner .hero-banner .quote-btn button{color: #fff; height: 100%; width: 100%; padding: 20px;}
 
-
-
-
-
 /* Hero seciton end */
+
+/* Service Section Start */
+
+.service .service-inner .row{margin-top: 48px;}
+.service .service-inner .service-title{text-align: center;}
+.service .service-inner .service-title * {margin: 0px; padding: 0px;}
+.service .service-inner .service-title p{font-size: 18px;}
+
+
+
+/* Service Section End */
+
+
 
 
 

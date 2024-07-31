@@ -27,6 +27,7 @@
     .hero .hero-inner .hero-banner {margin-top: 50px;}
     .hero .hero-inner .hero-banner .quote-btn{position: absolute; height: 120px; width: 120px; top: -44px; right: 40%;}
     .hero .hero-inner .hero-banner .quote-btn button{ padding: 10px; font-size: 14px;}
+    .custom-card {padding: 15px 15px;}
 }
 
 @media only screen and (max-width:860px) {
