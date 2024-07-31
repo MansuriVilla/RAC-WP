@@ -59,9 +59,14 @@ body,html{
 .service .service-inner .service-title * {margin: 0px; padding: 0px;}
 .service .service-inner .service-title p{font-size: 18px;}
 
-
-
 /* Service Section End */
+
+/* About Section Start */
+.about-company .about-inner h2 { margin: 20px 0px; }
+.about-company .about-inner .contact-bottom { margin-top: 28px; display: flex; column-gap: 20px; }
+.about-company .about-inner .contact-num a { margin-left: 9px; color: #000;}
+
+/* About Section End */
 
 
 
