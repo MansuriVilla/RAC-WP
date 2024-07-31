@@ -1,15 +1,19 @@
 
 
-.custom-container{max-width: 1800px; margin: 0px auto; width: 100%;}
+body,html{
+    scroll-behavior: smooth;
+}
 
 
 /* Header Hover links C-C-102 */
 
-.nav-item{display: flex; align-items: center;}
 
-.nav-link{position: relative;display: inline-block;  transition: all .5s ease;}
-.nav-link::after{content:''; position: absolute; height:2px; width: 20px; background-color: #000; bottom: 5px; left: 50%; transform: translate(-50%,-50%); border-radius: 50px; transition: all .5s ease; visibility: hidden; opacity: 0;}
-.nav-link:hover::after{visibility: visible; opacity: 1;}
+
+.nav-item{display: flex; align-items: center; font-size: 14px;}
+
+.nav-link{overflow: hidden; position: relative;display: inline-block;  transition: all .5s ease;}
+.nav-link::after{content:''; position: absolute; height:2px; width: 20px; background-color: #000;  transform: scaleX(0); left: 32%; bottom: 5px; transform-origin: right; transition: transform .5s ease;}
+.nav-link:hover::after{  transform-origin: left; transform: scaleX(1);}
 .nav-link:hover{font-weight: bold;}
 
 
@@ -19,4 +23,57 @@
 
 .quote-inner-btn .text-light.btn{padding: 16px 20px; height: 52px; line-height: 0;}
 
+.custom-body-offcanvas .navbar-nav{gap: 39px;}
+.custom-body-offcanvas .navbar-nav li a{color: #010101;}
+
+.social-links-header .social-inner {display: flex; justify-content: space-between; padding: 20px;}
+.social-links-header .social-inner .social-left{display: flex; gap: 24px;}
+
+
 /* Header Hover links C-C-102 */
+
+
+
+.contact-banner .contact-banner-inner {position: relative; }
+.contact-banner .contact-banner-inner .contact-banner-content { padding: 70px 0px; color: #fff; width: 100%; height: 100%; }
+.contact-banner .contact-banner-inner .banner-content-inner.row { width: 100%;  height: 100%; align-items: center; justify-content: center; }
+
+
+/* Hero seciton Start */
+
+.hero{padding-top: 25px; display: block;}
+.hero .hero-inner .hero-top{/* min-height: 30vh; */ justify-content: space-between; padding-bottom: 23px;}
+.hero .hero-inner .hero-top .hero-left h1{padding-bottom: 37px;}
+.hero .hero-inner{justify-content: space-between; height: 100%;  align-items: center;}
+.hero .hero-inner .hero-right{align-self: flex-end; display: flex; justify-content: space-between; align-items: flex-start;}
+.hero .hero-inner .hero-right h2{max-width: 438px; width: 100%; margin-right: 15px;}
+.hero .hero-inner .hero-banner{height: 50vh; position: relative;}
+.hero .hero-inner .hero-banner .quote-btn{ background-color: #000; height: 148px; width: 148px;  border: 3px solid #fff; border-radius: 100%;position: absolute; top: -70px; right: 35%; }
+.hero .hero-inner .hero-banner .quote-btn button{color: #fff; height: 100%; width: 100%; padding: 20px;}
+
+
+
+
+
+/* Hero seciton end */
+
+
+
+
+
+
+
+/* Footer Start C-C-112 */
+
+.footer-main .footer-main-inner{padding-top: 80px;}
+/* .footer-main .footer-main-inner .footer-top-containers{display: flex; width: 100%; padding-bottom:60px; justify-content: space-between; } */
+.footer-main .footer-main-inner .footer-copy-right-section{text-align: center; margin-top: 60px; border-top: 1px solid #565656; }
+.footer-main .footer-main-inner .footer-right{ /* width: 50%; */ color: #fff; }
+.footer-main .footer-main-inner .footer-right .footer-right-inner{justify-content: space-between;}
+
+.footer-main .footer-main-inner .footer-left p{max-width: 354px; width: 100%;}
+
+
+/* Footer End C-C-112 */
+
+

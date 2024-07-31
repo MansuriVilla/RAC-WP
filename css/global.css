@@ -2,8 +2,38 @@
     --rca-theme-font-bold:latobold;
     --rca-theme-font-regular:latoregular;
 }
-.rca-regular{font-family: var(--rca-theme-font-regular); font-weight: 300; }
-.rca-bold{font-family: var(--rca-theme-font-bold); font-weight: 600; }
+.rca-regular{font-family: var(--rca-theme-font-regular); }
+.rca-bold{font-family: var(--rca-theme-font-bold); }
 
 button.navbar-toggler:focus,
 button.btn-close:focus{box-shadow: none;}
+
+button{outline: 0px; border: 0px; background: transparent;}
+
+
+.custom-container{max-width: 1800px; margin: 0px auto; width: 100%; padding: 0px 15px;}
+.custom-container-footer, .custom-container-main{max-width: 1440px; margin: 0px auto; width: 100%; padding: 0px 15px; height: 100%; }
+
+.custom-text-light{color: #565656;}
+.border-top-custom { border-top: 2px solid #565656;}
+
+h1,h2,h3,h4,h5,h6,p{margin: 0px; padding: 0px;}
+
+
+
+/* Fonts Size Start */
+
+.custom-fs-18{font-size: 18px; line-height: normal; margin: 0px; padding: 0px;}
+.custom-fs-24{font-size: 24px; line-height: normal; margin: 0px; padding: 0px;}
+.custom-fs-48{font-size: 48px; line-height: normal; margin: 0px; padding: 0px;}
+.custom-fs-40{font-size: 40px; line-height: normal; margin: 0px; padding: 0px;}
+.custom-fs-72{font-size: 72px; line-height: normal; margin: 0px; padding: 0px;}
+
+/* Fonts Size End */
+
+.footer a{text-decoration: none; color: #fff; font-size: 1.125rem;}
+
+.footer ul,
+.footer li{padding:0px; margin:0px;}
+
+.footer li{list-style: none;}
