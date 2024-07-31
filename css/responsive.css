@@ -1,4 +1,66 @@
+@media only screen and (max-width:1340px) {
+    .custom-fs-18{font-size: 16px;}
+    .custom-fs-72{font-size: 62px;}
+    .hero .hero-inner .hero-top .hero-left h1{padding-bottom:53px ;}
+    .hero .hero-inner .hero-right img{max-width: 20px;}
+}
+
+@media only screen and (max-width:1140px) {
+    .custom-fs-18{font-size: 14px;}
+    .custom-fs-72{font-size: 52px;}
+    .hero .hero-inner .hero-top{padding-bottom: 13px;}
+    .hero .hero-inner .hero-right img {max-width: 18px};
+}
+
+@media only screen and (max-width:1080px) {
+    .custom-fs-18{font-size: 14px;}
+    .custom-fs-72{font-size: 52px;}
+    .custom-fs-40{font-size: 30px;}
+    .custom-fs-48{font-size: 36px;}
+    .hero .hero-inner .hero-top{padding-bottom: 13px;}
+}
+
+@media only screen and (max-width:991px) {
+    .custom-fs-18{font-size: 14px;}
+    .custom-fs-72{font-size: 46px;}
+    .hero{padding-top: 21px;}
+    .hero .hero-inner .hero-banner {margin-top: 50px;}
+    .hero .hero-inner .hero-banner .quote-btn{position: absolute; height: 120px; width: 120px; top: -44px; right: 40%;}
+    .hero .hero-inner .hero-banner .quote-btn button{ padding: 10px; font-size: 14px;}
+}
+
+@media only screen and (max-width:860px) {
+    .custom-fs-72{font-size: 42px;}
+}
+
+
+@media only screen and (max-width:768px) {
+    .hero{min-height: 100%;}
+    .hero .hero-inner .hero-banner{height: 34vh;}
+    .custom-fs-72 { font-size: 28px; }
+}
+
+
+
 @media only screen and (max-width:575px) {
     .social-links-header .social-inner .social-left .social-block .social { height: 15px; }
-    .social-links-header.bg-black{ background-color:aqua; }
+    .hero .hero-inner .hero-banner{height: 33vh;}
+    .hero .hero-inner .hero-top .hero-left h1 { padding-bottom: 25px; }
+    .hero .hero-inner .hero-banner {margin-top: 50px;}
+    .hero .hero-inner .hero-banner .quote-btn{position: absolute; height: 88px; width: 88px; top: -44px; right: 40%;}
+    .hero .hero-inner .hero-banner .quote-btn button{ padding: 0px; font-size: 12px;}
+}
+
+
+@media only screen and (max-width:480px){
+    .header .navbar-brand img{width: 100%;}
+    .header .navbar-brand {max-width: 160px; width: 100%;}
+
+}
+
+@media only screen and (max-width:380px) {
+    .social-links-header .social-inner {padding:13px ;}
+    .social-links-header .social-inner .social-left {gap: 15px;}
+    .social-inner .social-right a{font-size: 12px;}
+
 }
