@@ -130,6 +130,7 @@ body,html{
 .footer-main .footer-main-inner{padding-top: 80px;}
 /* .footer-main .footer-main-inner .footer-top-containers{display: flex; width: 100%; padding-bottom:60px; justify-content: space-between; } */
 .footer-main .footer-main-inner .footer-copy-right-section{text-align: center; margin-top: 60px; border-top: 1px solid #565656; }
+.footer-main .footer-main-inner .footer-copy-right-section p{margin: 0px; padding: 20px 15px; }
 .footer-main .footer-main-inner .footer-right{ color: #fff; }
 .footer-main .footer-main-inner .footer-right .footer-right-inner{justify-content: space-between;}
 
