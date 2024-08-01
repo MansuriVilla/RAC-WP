@@ -41,12 +41,21 @@
     .hero .hero-inner .hero-banner .quote-btn{height: 120px; width: 120px; top: -44px; right: 40%;}
     .hero .hero-inner .hero-banner .quote-btn button{ padding: 10px; font-size: 14px;}
     .custom-card {padding: 15px 15px;}
-    .owl-slider-section{padding-left: 15px; padding-top: 90px;}
-    .owl-slider-section .owl-carousel .owl-nav { top: -85px; left: 0px; display: inline-flex; }
+    .owl-slider-section{padding-left: 0px; padding-top: 60px;}
+    .owl-slider-section .owl-carousel .owl-nav { top: -25px; left: 15px; display: inline-flex !important; }
     section{padding: 40px 0px;}
     .about-company .about-inner .work{ padding: 80px 0px 0px;}
     .about-company .about-inner .contact-bottom{margin-bottom: 15px;}
-    
+    .slider-static-text.custom-container-main .slider-img{justify-content: flex-start; margin-top: 20px;}
+    .review-section .owl-stage-outer{padding: 40px  0px;}
+    .slider-section-inner{padding: 0px;}
+    .img-slider .owl-slider-section{padding-top: 95px;}
+    .img-slider .owl-slider-section .owl-carousel .owl-nav{top: -75px;}
+    .img-slider .slider-p-text{margin-top: 10px;}
+    .header .qoute-btn{margin-top: 20px;}
+    .custom-body-offcanvas .navbar-nav{gap: 10px;}
+    .contact-banner .contact-banner-inner .contact-banner-content{padding: 50px 20px;}
+    .contact-banner .contact-number-inner{margin-top: 20px;}
 }
 
 
@@ -61,6 +70,12 @@
     .custom-fs-72 { font-size: 28px; }
     .about-company .about-inner .work{ padding: 60px 0px 0px;}
     .video-section .video-inner { height: 300px; }
+    .footer-main .footer-main-inner .footer-right{gap: 40px; margin-top: 40px;}
+    .footer-main .footer-main-inner .footer-copy-right-section{margin-top: 30px;}
+    .footer-main .footer-main-inner{padding-top:40px;}
+    .footer-main .footer-main-inner .footer-left p{margin: 0px auto;}
+    .footer .social-left{justify-content: center;}
+    .footer .footer-top-containers{text-align: center;}
 }
 
 

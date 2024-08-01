@@ -135,6 +135,7 @@ body,html{
 .footer-main .footer-main-inner .footer-right .footer-right-inner{justify-content: space-between;}
 
 .footer-main .footer-main-inner .footer-left p{max-width: 354px; width: 100%;}
+.footer .social-left{display: flex; gap: 18px;}
 
 
 /* Footer End C-C-112 */
