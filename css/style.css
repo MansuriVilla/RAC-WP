@@ -61,13 +61,43 @@ body,html{
 
 /* Service Section End */
 
+
+
+/* Video Section Start */
+
+.video-section .video-inner{height: 600px;}
+.video-section video{height: 100%; width: 100%; object-fit: cover;}
+
+/* Video Section End */
+
+
 /* About Section Start */
+
 .about-company .about-inner h2 { margin: 20px 0px; }
 .about-company .about-inner .contact-bottom { margin-top: 28px; display: flex; column-gap: 20px; }
 .about-company .about-inner .contact-num a { margin-left: 9px; color: #000;}
 
+
+.about-company .about-inner .work{display: flex; justify-content: space-evenly; padding: 150px 0px 0px;}
+.about-company .about-inner .work h2{margin: 2px 0px 0px;}
+
 /* About Section End */
 
+
+/* Slider Section Start */
+
+.slider-section{position: relative;}
+.slider-section-inner{ padding: 50px 0px 0px;}
+.slider-section-inner::after{content: ''; position: absolute; top: 0px; background: #F3F3F3; height: 497px; width: 100%; z-index: -1;}
+
+.owl-slider-section{padding-left: 165px; padding-top: 13px;}
+.owl-slider-section .owl-carousel .owl-nav{ position: absolute; top: -110px; right: 15%;}
+.owl-slider-section .owl-carousel .owl-nav button:hover{background-color: #e3e3e3; }
+.owl-slider-section .owl-carousel .owl-nav button.owl-prev,
+.owl-slider-section .owl-carousel .owl-nav button.owl-next{border: 2px solid #000; width: 52px; height: 52px; border-radius: 0px; display: inline-flex; justify-content: center; align-items: center; margin: 0px; }
+.owl-slider-section .owl-carousel .owl-nav button.owl-prev{margin-right: 15px;}
+
+/* Slider Section End */
 
 
 

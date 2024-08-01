@@ -7,9 +7,11 @@
 
 button.navbar-toggler:focus,
 button.btn-close:focus{box-shadow: none;}
+button.btn:active{border-color:transparent !important;}
 
 
 /* Custom Class Start */
+
 .custom-revers{flex-direction: row-reverse; -ms-flex-direction: row-reverse;}
 .row-custom{align-items: center;}
 .text-right-custom{text-align: right;}
@@ -17,6 +19,8 @@ button.btn-close:focus{box-shadow: none;}
 .no-padding-bottom{padding-bottom: 0px;}
 .custom-container{max-width: 1800px; margin: 0px auto; width: 100%; padding: 0px 15px;}
 .custom-container-main{max-width: 1620px; margin: 0px auto; width: 100%; padding: 0px 15px; height: 100%; }
+.owl-slider-section .custom-d-block{display: block;}
+.full:not(.no-full){width: auto;}
 
 /* Custom Class End */
 
@@ -24,11 +28,10 @@ button.btn-close:focus{box-shadow: none;}
 
 
 /* Tag Css Start */
+
 .arrow-right{margin-left: 10px; max-width: 20px;}
-.full:not(.no-full){width: 100%;}
 section{padding: 50px 0px;} 
 button{outline: 0px; border: 0px; background: transparent;}
-
 
 /* Tag Css End */
 
