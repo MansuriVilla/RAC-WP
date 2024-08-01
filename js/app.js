@@ -17,6 +17,8 @@ $(document).ready(function () {
       },
     });
   });
+
+
 $(document).ready(function () {
     $(".slider-default-review").owlCarousel({
       loop: true,
@@ -34,5 +36,32 @@ $(document).ready(function () {
       },
     });
   });
-
+  document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('custom-video');
+    var playButton = document.getElementById('play-button');
+  
+    // Toggle play/pause when the button is clicked
+    playButton.addEventListener('click', function() {
+      if (video.paused) {
+        video.play();
+        playButton.classList.add('hidden'); // Hide the button when video is playing
+      } else {
+        video.pause();
+        playButton.classList.remove('hidden'); // Show the button when video is paused
+      }
+    });
+  
+    // Pause video when the video itself is clicked
+    video.addEventListener('click', function() {
+      if (!video.paused) {
+        video.pause();
+        playButton.classList.remove('hidden'); // Show the button when video is paused
+      }
+    });
+  
+    // Show the button when the video ends
+    video.addEventListener('ended', function() {
+      playButton.classList.remove('hidden'); // Show button again
+    });
+  });
   

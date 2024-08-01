@@ -220,9 +220,13 @@
 
     <section class="video-section no-padding-bottom no-padding-top">
       <div class="video-inner">
-        <video src="./assets/video/video-temp.mp4" autoplay muted loop></video>
+        <video id="custom-video" src="./assets/video/video-temp.mp4"  muted loop></video>
+        <button id="play-button" class="play-button">
+          <img src="./assets/icons/play-icon.svg" alt="Play">
+        </button>
       </div>
     </section>
+    
 
     <section class="slider-section">
       <div class="slider-section-inner">
@@ -293,7 +297,7 @@
     </section>
 
 
-    <section class="slider-section">
+    <section class="slider-section review-section">
       <div class="slider-section-inner">
         <div class="slider-static-text custom-container-main">
           <div class="row">
@@ -390,7 +394,7 @@
               <div class="contact-number-inner">
                 <img src="./assets/icons/phone.svg" alt="Phone icon" />
                 <p class="custom-fs-18 mb-1 mt-2">Call Us Now</p>
-                <p class="custom-fs-40 rca-bold">(123) 234-4567</p>
+                <a href="tel:(123)  234-4567" class="custom-fs-40 rca-bold custom-text-white no-decoration">(123) 234-4567</a>
               </div>
             </div>
           </div>
