@@ -1,5 +1,6 @@
 @media only screen and (max-width:1440px){
     .about-company .about-inner .work{padding: 120px 0px 0px;}
+    .video-section .video-inner{height: 500px;}
 }
 
 
@@ -11,6 +12,7 @@
     .hero .hero-inner .hero-banner .quote-btn{height: 128px; width: 128px;}
     .about-company .about-inner .work{ padding: 100px 0px 0px;}
     .full:not(.no-full){width: 100%;}
+    .video-section .video-inner { height: 420px; }
 }
 
 
@@ -43,6 +45,7 @@
     .owl-slider-section .owl-carousel .owl-nav { top: -85px; left: 0px; display: inline-flex; }
     section{padding: 40px 0px;}
     .about-company .about-inner .work{ padding: 80px 0px 0px;}
+    .about-company .about-inner .contact-bottom{margin-bottom: 15px;}
     
 }
 
@@ -57,6 +60,7 @@
     .hero .hero-inner .hero-banner{height: 34vh;}
     .custom-fs-72 { font-size: 28px; }
     .about-company .about-inner .work{ padding: 60px 0px 0px;}
+    .video-section .video-inner { height: 300px; }
 }
 
 
@@ -70,6 +74,10 @@
     .hero .hero-inner .hero-banner .quote-btn button{ padding: 0px; font-size: 12px;}
     section{padding: 30px 0px;}
     .about-company .about-inner .work{ padding: 40px 0px 0px;}
+    .owl-slider-section.review-section .item{max-width: 496px;}
+    .review-section .owl-stage-outer{padding: 0px 0px 20px;}
+    .video-section .video-inner { height: 200px; }
+    
 }
 
 

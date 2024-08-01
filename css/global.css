@@ -12,7 +12,9 @@ button.btn:active{border-color:transparent !important;}
 
 /* Custom Class Start */
 
+.no-margin{margin: 0px;}
 .custom-revers{flex-direction: row-reverse; -ms-flex-direction: row-reverse;}
+.custom-column{flex-direction: column; -ms-flex-direction: column;}
 .row-custom{align-items: center;}
 .text-right-custom{text-align: right;}
 .no-padding-top{padding-top: 0px;}
@@ -21,6 +23,7 @@ button.btn:active{border-color:transparent !important;}
 .custom-container-main{max-width: 1620px; margin: 0px auto; width: 100%; padding: 0px 15px; height: 100%; }
 .owl-slider-section .custom-d-block{display: block;}
 .full:not(.no-full){width: auto;}
+.custom-d-flex{display: flex;}
 
 /* Custom Class End */
 
@@ -33,7 +36,7 @@ button.btn:active{border-color:transparent !important;}
 section{padding: 50px 0px;} 
 button{outline: 0px; border: 0px; background: transparent;}
 
-/* Tag Css End */
+/* Tag Css End */ 
 
 
 
@@ -46,15 +49,9 @@ h1,h2,h3,h4,h5,h6,p{margin: 0px; padding: 0px;}
 /* Custom Section Start */
 
 .custom-card {padding: 0px 15px; display: flex;}
-.custom-card .custom-card-inner { padding: 60px 33px 15px; box-shadow: 0px 4px 26.5px #00000010;  } 
+.custom-card .custom-card-inner { padding: 60px 33px 15px; box-shadow: 0px 4px 15px 0px #0000001A;  background-color: #fff;} 
 .custom-card .custom-card-inner h2{color: #000; margin: 50px 0px 20px;}
 .custom-card .custom-card-inner p{color:#565656;}
-
-
-
-
-
-
 
 /* Custom Section End */
 
