@@ -13,6 +13,7 @@
     .about-company .about-inner .work{ padding: 100px 0px 0px;}
     .full:not(.no-full){width: 100%;}
     .video-section .video-inner { height: 420px; }
+    .hero .hero-inner .hero-banner .quote-btn button{font-size: 16px;}
 }
 
 
