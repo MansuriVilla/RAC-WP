@@ -98,9 +98,10 @@ body,html{
 
 .owl-slider-section{padding-left: 165px; padding-top: 13px;}
 .owl-slider-section .owl-carousel .owl-nav{ position: absolute; top: -110px; right: 15%;}
-.owl-slider-section .owl-carousel .owl-nav button:hover{background-color: #e3e3e3; }
+.owl-slider-section .owl-carousel .owl-nav button.owl-prev:hover, .owl-slider-section .owl-carousel .owl-nav button.owl-next:hover{background-color: #565665; border:2px solid transparent; }
+.owl-slider-section .owl-carousel .owl-nav button.owl-prev:hover img, .owl-slider-section .owl-carousel .owl-nav button.owl-next:hover img{filter: invert(1);}
 .owl-slider-section .owl-carousel .owl-nav button.owl-prev,
-.owl-slider-section .owl-carousel .owl-nav button.owl-next{border: 2px solid #000; width: 52px; height: 52px; border-radius: 0px; display: inline-flex; justify-content: center; align-items: center; margin: 0px; }
+.owl-slider-section .owl-carousel .owl-nav button.owl-next{border: 2px solid #000000; width: 52px; height: 52px; border-radius: 0px; display: inline-flex; justify-content: center; align-items: center; margin: 0px; transition: all .2s ease; }
 .owl-slider-section .owl-carousel .owl-nav button.owl-prev{margin-right: 15px;}
 
 /* Slider Section End */
