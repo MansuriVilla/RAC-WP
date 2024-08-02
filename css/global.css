@@ -54,6 +54,17 @@ button{outline: 0px; border: 0px; background: transparent;}
     height: auto;
 }
   
+.video-inner::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    background: #0000007d;
+    height: 100%;
+    width: 100%;
+  }
+  .video-inner.no-overlay::after {
+    opacity: 0; /* Hide the overlay when the no-overlay class is added */
+}
 .play-button {
     position: absolute;
     top: 50%;
@@ -72,14 +83,9 @@ button{outline: 0px; border: 0px; background: transparent;}
 }
   
 .play-button.hidden {
-    scale: 5;
     opacity: 0;
   }
   
-  .play-button img {
-    width: 50px; 
-    height: auto;
-  }
 
 /* Play Button End */
 
