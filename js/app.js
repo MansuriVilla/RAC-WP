@@ -69,3 +69,11 @@ $(document).ready(function () {
   }
  
   videoButton();
+
+
+
+
+function tobottom(){
+  $('html,body').animate({ scrollTop: ($('html').height())-($(window).height())}, 3000, 'easeInOutQuad')											 
+}
+
