@@ -9,22 +9,22 @@ body,html{
 
 
 
-.nav-item{display: flex; align-items: center; font-size: 14px;}
-
-.nav-link{overflow: hidden; position: relative;display: inline-block;  transition: all .5s ease;}
+.nav-item{display: flex; align-items: center; font-size: 14px; }
+.nav-link{overflow: hidden; position: relative;display: inline-block;  transition: .5s ease;   -webkit-text-stroke-width: .8px; -webkit-text-stroke-color: transparent; }
 .nav-link::after{content:''; position: absolute; height:2px; width: 20px; background-color: #000;  transform: scaleX(0); left: 32%; bottom: 5px; transform-origin: right; transition: transform .5s ease;}
 .nav-link:hover::after{  transform-origin: left; transform: scaleX(1);}
-.nav-link:hover{font-weight: bold;}
+.nav-link:hover{  -webkit-text-stroke-width: .8px; -webkit-text-stroke-color: #010101;}
 
 
 
 
 .social-links-header .social-right a:hover{ border-bottom: 2px solid #fff;}
 
-.quote-inner-btn .text-light.btn{padding: 16px 20px; height: 52px; line-height: 0;}
+.quote-inner-btn .text-light.btn{padding: 16px 20px; height: 52px; line-height: 0; border-radius: 0;}
+.quote-inner-btn .text-light.btn:hover {background-color: #565656; }
 
 .custom-body-offcanvas .navbar-nav{gap: 39px;}
-.custom-body-offcanvas .navbar-nav li a{color: #010101;}
+.custom-body-offcanvas .navbar-nav li a{color: #010101; transition: .5s ease;}
 
 .social-links-header .social-inner {display: flex; justify-content: space-between; padding: 20px;}
 .social-links-header .social-inner .social-left{display: flex; gap: 24px;}
@@ -80,7 +80,7 @@ body,html{
 
 .about-company .about-inner .work{display: flex; justify-content: space-evenly; padding: 150px 0px 0px;}
 .about-company .about-inner .work h2{margin: 2px 0px 0px;}
-
+.about-company .about-inner .contact-num a:hover { color: #565656; }
 /* About Section End */
 
 
