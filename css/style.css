@@ -26,7 +26,7 @@ body,html{
 .custom-body-offcanvas .navbar-nav{gap: 39px;}
 .custom-body-offcanvas .navbar-nav li a{color: #010101; transition: .5s ease;}
 
-.social-links-header .social-inner {display: flex; justify-content: space-between; padding: 20px;}
+.social-links-header .social-inner {display: flex; justify-content: space-between; padding: 5px 20px;}
 .social-links-header .social-inner .social-left{display: flex; gap: 24px;}
 
 
@@ -47,9 +47,9 @@ body,html{
 .hero .hero-inner .hero-right{align-self: flex-end; display: flex; justify-content: space-between; align-items: flex-start;}
 .hero .hero-inner .hero-right h2{max-width: 438px; width: 100%; margin-right: 15px;}
 .hero .hero-inner .hero-banner{height: 50vh; position: relative;}
-.hero .hero-inner .hero-banner .quote-btn{ background-color: #000; height: 148px; width: 148px;  border: 3px solid #fff; border-radius: 100%;position: absolute; top: -70px; right: 35%; }
-.hero .hero-inner .hero-banner .quote-btn:hover button{ background-color: #565656;}
-.hero .hero-inner .hero-banner .quote-btn button{color: #fff; height: 100%; width: 100%; padding: 15px; font-size: 20px; font-weight: bold; border-radius: 100%;  transition: .2s ease;}
+.hero .hero-inner .hero-banner .quote-btn{ background-color: #000; height: 148px; width: 148px;  border: 3px solid #fff; border-radius: 100%;position: absolute; top: -70px; right: 35%; cursor: pointer; transition: .2s ease; }
+.hero .hero-inner .hero-banner .quote-btn:hover{ background-color: #565656;}
+.hero .hero-inner .hero-banner .quote-btn a{color: #fff; height: 100%; width: 100%; padding: 15px; font-size: 20px; font-weight: bold; border-radius: 100%;  transition: .2s ease; text-decoration: none; text-align: center;  display: flex; justify-content: center; align-items: center;}
 
 /* Hero seciton end */
 
@@ -77,11 +77,11 @@ body,html{
 .about-company .about-inner h2 { margin: 20px 0px; }
 .about-company .about-inner .contact-bottom { margin-top: 28px; display: flex; column-gap: 20px; }
 .about-company .about-inner .contact-num a { margin-left: 9px; color: #000;}
-
-
-.about-company .about-inner .work{display: flex; justify-content: space-evenly; padding: 150px 0px 0px;}
-.about-company .about-inner .work h2{margin: 2px 0px 0px;}
 .about-company .about-inner .contact-num a:hover { color: #565656; }
+
+
+.company-rating .work{display: flex; justify-content: space-evenly; padding: 40px 0px 0px;}
+.company-rating .work h2{margin: 2px 0px 0px;}
 /* About Section End */
 
 
