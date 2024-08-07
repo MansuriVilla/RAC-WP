@@ -28,7 +28,7 @@ button.btn:active{border-color:transparent !important;}
 .custom-text-white{color: #fff;}
 .full:not(.no-full){width: auto;}
 .custom-d-flex{display: flex;}
-
+img{max-width: 100%;height: auto;}
 
 /* Custom Class End */
 
@@ -101,7 +101,7 @@ h1,h2,h3,h4,h5,h6,p{margin: 0px; padding: 0px;}
 /* Custom Section Start */
 
 .custom-card {padding: 0px 15px; display: flex;}
-.custom-card .custom-card-inner { padding: 60px 33px 15px; box-shadow: 0px 4px 15px 0px #0000001A;  background-color: #fff;} 
+.custom-card .custom-card-inner { padding: 60px 30px 15px; box-shadow: 0px 4px 15px 0px #0000001A;  background-color: #fff;} 
 .custom-card .custom-card-inner h2{color: #000; margin: 50px 0px 20px;}
 .custom-card .custom-card-inner p{color:#565656;}
 

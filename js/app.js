@@ -26,11 +26,45 @@ $(document).ready(function () {
       autoWidth:true,
       navText: ["<img src='./assets/icons/slider-arrow-left.svg'>","<img src='./assets/icons/slider-arrow-right.svg'>"],
       responsive: {
-        576: {
+        0: {
           items: 1,
+          autoWidth:false
         },
-        1000: {
+
+        576: {
           items: 2.3,
+        },
+      },
+    });
+  });
+
+
+  $(document).ready(function () {
+    $(".service-slider-list").owlCarousel({
+      loop: false,
+      margin: 30,
+      nav: false,
+      dots: false,
+      autoplay:false,
+      mouseDrag:false,
+      navText: ["<img src='./assets/icons/slider-arrow-left.svg'>","<img src='./assets/icons/slider-arrow-right.svg'>"],
+      responsive: {
+        0: {
+          items: 1,
+          nav: true,
+          autoplay:true,
+          mouseDrag:true
+        },
+
+        576: {
+          items: 2,
+          nav: true,
+          autoplay:true,
+          mouseDrag:true
+        },
+
+        992: {
+          items: 3
         },
       },
     });

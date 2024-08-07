@@ -1,4 +1,5 @@
 @media only screen and (max-width:1440px){
+    .custom-container-main{max-width: 1280px;}
     .about-company .about-inner .work{padding: 120px 0px 0px;}
     .video-section .video-inner{height: 500px;}
 }
@@ -8,48 +9,73 @@
     .custom-fs-18{font-size: 16px;}
     .custom-fs-72{font-size: 62px;}
     .hero .hero-inner .hero-top .hero-left h1{padding-bottom:53px ;}
-    .hero .hero-inner .hero-right img{max-width: 20px;}
+    .hero-right img{max-width: 20px;}
     .hero .hero-inner .hero-banner .quote-btn{height: 128px; width: 128px;}
     .about-company .about-inner .work{ padding: 100px 0px 0px;}
     .full:not(.no-full){width: 100%;}
     .video-section .video-inner { height: 420px; }
     .hero .hero-inner .hero-banner .quote-btn button{font-size: 16px;}
+    .map iframe{height: 420px;}
 }
 
 
 @media only screen and (max-width:1140px) {
-    .custom-fs-18{font-size: 14px;}
     .custom-fs-72{font-size: 52px;}
     .hero .hero-inner .hero-top{padding-bottom: 13px;}
-    .hero .hero-inner .hero-right img {max-width: 18px};
+    .hero-right img {max-width: 15px};
     .about-company .about-inner .work{ padding: 80px 0px 0px;}
 }
 
 @media only screen and (max-width:1080px) {
-    .custom-fs-18{font-size: 14px;}
     .custom-fs-72{font-size: 52px;}
     .custom-fs-40{font-size: 30px;}
     .custom-fs-48{font-size: 36px;}
     .hero .hero-inner .hero-top{padding-bottom: 13px;}
     .about-company .about-inner .work{ padding: 70px 0px 0px;}
+
+    .custom-fs-24{font-size: 22px;}
+    .advantagessection .custom-card-inner img{height: 60px;}
+    .custom-card .custom-card-inner{padding: 40px 25px 15px;}
 }
 
 @media only screen and (max-width:991px) {
-    .custom-fs-18{font-size: 14px;}
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{width: 35px;height: 35px}
     .custom-fs-72{font-size: 46px;}
-    .hero{padding-top: 21px;}
     .hero .hero-inner .hero-banner {margin-top: 50px;}
+    .hero .hero-inner .hero-top .hero-left h1{padding-bottom: 15px;}
     .hero .hero-inner .hero-banner .quote-btn{height: 120px; width: 120px; top: -44px; right: 40%;}
-    .hero .hero-inner .hero-banner .quote-btn button{ padding: 10px; font-size: 14px;}
+    .hero .hero-inner .hero-banner .quote-btn a{ padding: 10px; font-size: 14px;}
+    /* About Section Start */
+    .about-content{max-width: 100%;}
+
+    /* About Section end */
+
+    /* Innerbanner seciton Start */
+    .innerbanner-title{padding-bottom: 40px;}
+    .innerbanner-title h1{padding-bottom: 25px;}
+    .inner-bannerbg{height: 440px;}
+    /* Innerbanner seciton end */
+
+    /* services seciton Start */
+    .service-title{margin-bottom: 30px;}
+    /* services seciton end */
+
+    /* advantages seciton Start */
+    .advantages-title{margin-bottom: 30px;}
+    /* advantages seciton end */
+
+
+    /* Review Section Start */
+    .custom-card.no-card.review-card .custom-card-inner{padding: 40px 40px 30px;}
+    /* Review Section End */
+
     .custom-card {padding: 15px 15px;}
     .owl-slider-section{padding-left: 0px; padding-top: 60px;}
     .owl-slider-section .owl-carousel .owl-nav { top: -25px; left: 15px; display: inline-flex !important; }
     section{padding: 40px 0px;}
     .about-company .about-inner .work{ padding: 80px 0px 0px;}
-    .about-company .about-inner .contact-bottom{margin-bottom: 15px;}
     .slider-static-text.custom-container-main .slider-img{justify-content: flex-start; margin-top: 20px;}
     .review-section .owl-stage-outer{padding: 40px  0px;}
-    .slider-section-inner{padding: 0px;}
     .img-slider .owl-slider-section{padding-top: 95px;}
     .img-slider .owl-slider-section .owl-carousel .owl-nav{top: -75px;}
     .img-slider .slider-p-text{margin-top: 10px;}
@@ -57,6 +83,23 @@
     .custom-body-offcanvas .navbar-nav{gap: 10px;}
     .contact-banner .contact-banner-inner .contact-banner-content{padding: 50px 20px;}
     .contact-banner .contact-number-inner{margin-top: 20px;}
+
+    /* Slider Section Start */
+    .review-section.owl-slider-section{padding-top: 35px;}
+    .slider-section-inner{padding-top: 80px;}
+    .slider-section::after{top: 40px;}
+    /* Slider Section End */
+    
+    /* Service Slider Section Start */
+    .services-heading{margin-bottom: 80px;padding-top: 80px;}
+    .serviceslide-section::after{top: 40px;}
+    .servicesbox:hover .servicesoverlaybox{padding: 30px;}
+    .servicesoverlaybox{height: 60px;top: calc(100% - 60px);padding: 15px 30px;}
+    .servicesoverlaybox::before{height: 60px;top: calc(100% - 60px);}
+    .servicesbox:hover .service-link{bottom: 0px;}
+    .service-slider-list.owl-carousel .owl-item a img{height: 18px;}
+    .service-slider-list.owl-carousel .owl-nav{top: -55px;right: auto;}
+    /* Service Slider Section End */
 }
 
 
@@ -66,8 +109,13 @@
 
 
 @media only screen and (max-width:768px) {
+
+    .custom-fs-48{font-size: 30px;}
+    nav.navbar{padding: 15px 0px;}
+    section{padding: 30px 0px;}
     .hero{min-height: 100%;}
     .hero .hero-inner .hero-banner{height: 34vh;}
+    .row.row-custom{gap: 30px;}
     .custom-fs-72 { font-size: 28px; }
     .about-company .about-inner .work{ padding: 60px 0px 0px;}
     .video-section .video-inner { height: 300px; }
@@ -77,22 +125,80 @@
     .footer-main .footer-main-inner .footer-left p{margin: 0px auto;}
     .footer .social-left{justify-content: center;}
     .footer .footer-top-containers{text-align: center;}
+    /* About Section Start */
+    .about-img{text-align: center;}
+    .about-img img{max-width: 500px;margin: 0 auto;}
+    /* About Section end */
+
+    /* Innerbanner seciton Start */
+    .inner-bannerbg{height: 320px;}
+     /* Innerbanner seciton end */
+
+     .custom-fs-24{font-size: 20px;}
+     .advantagessection .custom-card-inner img{height: 50px;}
+     .advantagessection .custom-card .custom-card-inner h2{margin: 15px 0px 15px;}
+
+     .map iframe{height: 320px;}
+
+
+     /* Service Slider Section Start */
+     .services-heading{padding-top: 60px;}
+    .serviceslide-section::after{top: 30px;}
+     /* Service Slider Section End */
+
+
+     /* Slider Section Start */
+    .slider-section-inner{padding-top: 60px;}
+    .slider-section::after{top: 30px;}
+    /* Slider Section End */
 }
 
 
 
 @media only screen and (max-width:575px) {
+    section{padding: 20px 0px;}
     .social-links-header .social-inner .social-left .social-block .social { height: 15px; }
     .hero .hero-inner .hero-banner{height: 33vh;}
     .hero .hero-inner .hero-top .hero-left h1 { padding-bottom: 25px; }
     .hero .hero-inner .hero-banner {margin-top: 50px;}
     .hero .hero-inner .hero-banner .quote-btn{position: absolute; height: 88px; width: 88px; top: -44px; right: 40%;}
-    .hero .hero-inner .hero-banner .quote-btn button{ padding: 0px; font-size: 12px;}
-    section{padding: 30px 0px;}
+    .hero .hero-inner .hero-banner .quote-btn a{ padding: 0px; font-size: 12px;}
+    .quote-inner-btn .text-light.btn{padding: 12px 15px;height: 45px;}
+    .contact-num img{height: 45px;}
+    /* Innerbanner seciton Start */
+    .innerbanner-title{padding-bottom: 30px;}
+    .innerbanner-title h1{padding-bottom: 20px;}
+    /* Innerbanner seciton end */
+
+    /* services seciton Start */
+    .service-title{margin-bottom: 10px;}
+    /* services seciton end */
+
+    /* advantages seciton Start */
+    .advantages-title{margin-bottom: 10px;}
+    /* advantages seciton end */
+
+    /* Service Slider Section Start */
+    .services-heading{padding-top: 40px;}
+    .serviceslide-section::after{top: 20px;}
+     /* Service Slider Section End */
+
+
+     /* Slider Section Start */
+    .slider-section-inner{padding-top: 40px;}
+    .slider-section::after{top: 20px;}
+    /* Slider Section End */
+
     .about-company .about-inner .work{ padding: 40px 0px 0px;}
     .owl-slider-section.review-section .item{max-width: 496px;}
-    .review-section .owl-stage-outer{padding: 0px 0px 20px;}
-    .video-section .video-inner { height: 200px; }
+    
+
+    /* Review Section Start */
+    .review-section .owl-stage-outer{padding: 30px 0px 30px;}
+    .custom-card.no-card.review-card .custom-card-inner{padding: 30px;}
+    .review-section .review-card .review img{height: 40px;}
+    .review-card .review{margin-top: 20px;}
+    /* Review Section End */
     
 }
 
@@ -100,7 +206,6 @@
 @media only screen and (max-width:480px){
     .header .navbar-brand img{width: 100%;}
     .header .navbar-brand {max-width: 160px; width: 100%;}
-    section{padding: 25px 0px;}
     .about-company .about-inner .work{ padding: 35px 0px 0px;}
     
 }
@@ -109,6 +214,5 @@
     .social-links-header .social-inner {padding:13px ;}
     .social-links-header .social-inner .social-left {gap: 15px;}
     .social-inner .social-right a{font-size: 12px;}
-    section{padding: 20px 0px;}
 
 }
